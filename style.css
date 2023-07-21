@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: lightpink;
+}
+
+/* Header Section start */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    background-color: lightpink;
+    position: sticky;
+    top: 0;
+}
+
+
+header h2{
+    font-size: 32px;
+    font-family: 'Tektur', cursive;
+    color: white;
+    background: tomato;
+    border-radius: 4px;
+}
+
+header h2 span{
+    color: tomato;
+    background: white;
+    border-radius: 4px;
+}
+
+header nav a{
+    background-color: tomato;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    transition: all 0.3s linear;
+}
+
+header nav a:hover{
+    background-color: rgb(243, 40, 4);
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+}
+
+/* Header Section end */
+
+/* Banner Section start */
+.banner-section{
+    background: url("Image/banner.png");
+    height: 420px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-section button a{
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    background: tomato;
+    padding: 0px 0px;
+    transition: all 0.3s linear;
+    outline: 2px solid white;
+
+}
+
+
+.banner-section button span{
+    background: white;
+    color: tomato;
+    padding: 0;
+}
+
+
+.banner-section button a:hover{
+    background-color: rgb(253, 38, 0);
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.banner-section button span:hover{
+    background-color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+/* Banner Section end */
+
+/* Card Section */
+
+.product-item h2{
+    text-align: center;
+    font-size: 32px;
+    color: tomato;
+    background: white;
+    
+}
+
+.product-item h2 span{
+    color: white;
+    background: tomato;
+    
+    
+}
+
+.card-container{
+    display: flex;
+    padding: 16px 64px;
+    font-size: 16px;
+    display: inline-block;
+    margin-left: 28px;
+}
+
+.card{
+    width: 300px;
+    box-shadow: 5px 3px 5px rgb(95, 94, 94);
+    border-radius: 12px;
+    overflow: hidden;
+    background: white;
+    transition: all 0.3s linear;
+}
+
+.card:hover{
+    box-shadow: 10px 8px 10px rgb(95, 94, 94);
+}
+
+.card h3,
+.card p{
+    margin: 0 8px;
+}
+
+.card p{
+    color: gray;
+    font-size: 14px;
+}
+
+.card img{
+    width: 100%;
+}
+
+.card .action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+
+.action button{
+    color: white;
+    background: blue;
+    padding: 8px 16px;
+    border: none; 
+    border-radius: 8px;
+}
+
+.action h3{
+    background: tomato;
+    color: white;
+    border-radius: 2px;
+}
+/* Card Section */
+
+/* New iteam start */
+.body{
+    background: rgb(13, 177, 177);
+}
+/* New iteam start */
+
+/* Footer Section */
+.flex{
+    display: flex;
+}
+
+.justify-between{
+    justify-content: space-between ;
+}
+
+footer{
+    background: black ;
+    padding: 0 16px;
+}
+
+.footer-top input{
+    font-size: 20  px;
+    padding: 8px;
+}
+
+.footer-top ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    padding: 8px; 
+}
+
+.align-center{
+    align-items: center;
+}
+
+.footer-bottom{
+    text-align: center;
+    background: gray;
+    padding: 6px;
+    font-size: 18px;
+    margin: 0;
+}
+
+.footer-bottom p{
+    color: white;
+}
+/* Footer Section */
+
+/* Search Icon */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style the search field */
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  @media (max-width: 576px){
+        .footer-top{
+            flex-direction: column;
+            padding: 8px;
+            gap: 8px;
+        }
+  }
+
+  @media (max-width: 576px){
+    header{
+        flex-direction: column;
+        padding: 8px;
+        gap: 12px;
+    }
+}
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
